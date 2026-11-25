@@ -61,7 +61,7 @@
 * **Thinking Level:** `High (Extra thorough)`
 * **Aspect Ratio:** `16:9`
 * **Quantity:** `x1`
-* **Naming:** `<subject_code>_<unit>_<part>_<type>` (เช่น `20104-2003_U2_1_C1`)
+* **Naming:** `<subject_code>_<unit>_<part>_<type> (<OPERATOR_NAME>)` (เช่น `20104-2003_U1_1_C1 (Ping)`) โดยต้องต่อท้ายด้วยชื่อพนักงานผู้รับผิดชอบในวงเล็บเสมอ
 
 ---
 
