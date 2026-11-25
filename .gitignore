@@ -20,3 +20,9 @@ desktop.ini
 *.log
 scratch/
 .system_generated/
+
+# Machine-local employee config (per-machine operator name)
+*.local.txt
+operator.local.txt
+.claude/
+
