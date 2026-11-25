@@ -25,9 +25,9 @@ description: สกิลควบคุม Google Flow AI เพื่อสร
 - ตรวจสอบสถานะจนกว่าภาพจะเรนเดอร์เสร็จสมบูรณ์
 
 ### 4. ดาวน์โหลดภาพและจัดเก็บ (Auto Directory Creation)
-- ตรวจสอบโฟลเดอร์ปลายทาง หากยังไม่มีโฟลเดอร์ ให้ระบบสร้างโฟลเดอร์โครงสร้างอัตโนมัติ (Recursive Directory Creation เช่น `os.makedirs(..., exist_ok=True)` หรือ `mkdir -p`):  
-  `output/<branch>/<subject>/<unit>/<part>/4. Video Hook/checkwork/image`  
-  *(พนักงานไม่จำเป็นต้องสร้างโฟลเดอร์เองล่วงหน้า ระบบจะสร้างให้ทั้งหมดอัตโนมัติ)*
+- ตรวจสอบโฟลเดอร์ปลายทาง หากยังไม่มีโฟลเดอร์ ให้ระบบสร้างโฟลเดอร์โครงสร้างอัตโนมัติตามมาตรฐานกลาง OVEC-Agent (Recursive Directory Creation เช่น `os.makedirs(..., exist_ok=True)` หรือ `mkdir -p`):  
+  `Output/<thaiName>/<CODE>/<CODE>_U<หน่วย>/<BASE>/4. Video Hook/checkwork/image`  
+  *(ตัวอย่าง: `Output/ไฟฟ้า/20104-2003/20104-2003_U2/20104-2003_U2_1/4. Video Hook/checkwork/image` โดยที่พนักงานไม่ต้องสร้างโฟลเดอร์เองล่วงหน้า ระบบจะสร้างให้ทั้งหมดอัตโนมัติ)*
 - ดาวน์โหลดภาพคุณภาพ 1K Original Size (JPEG)
 - บันทึกไฟล์ลงโฟลเดอร์ปลายทางตามชื่อมาตรฐาน: `Scene 01.jpg`, `Scene 02.jpg`, ...
 - ตรวจสอบว่าขนาดไฟล์สมบูรณ์และเปิดดูได้
