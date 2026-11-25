@@ -1,0 +1,22 @@
+# Heavy media output files
+output/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.zip
+*.tar.gz
+*.tmp
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+
+# Logs & temp
+*.log
+scratch/
+.system_generated/
