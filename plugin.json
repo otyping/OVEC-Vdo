@@ -1,13 +1,13 @@
 {
   "name": "ovec-vdo-flow",
   "displayName": "OVEC VDO Flow Pipeline",
-  "version": "1.0.0",
-  "description": "ระบบผลิตและตรวจภาพ Video Hook สำหรับสื่อการสอนอาชีวศึกษาด้วย Google Flow AI (Nano Banana 2.1)",
+  "version": "1.1.0",
+  "description": "ระบบเขียนบท-Prompt (ovec-one Ver.12), จัดทำสตอรี่บอร์ด DOCX 2 คอลัมน์, ผลิตภาพด้วย Google Flow AI (Nano Banana 2.1) และตรวจ QC สำหรับสื่ออาชีวศึกษา",
   "author": "otyping",
   "repository": "https://github.com/otyping/OVEC-Vdo.git",
   "suggestedPrompts": [
-    "สั่งเจนภาพ Video Hook สำหรับบทเรียนนี้",
-    "ตรวจความถูกต้องของภาพ Scene ในโฟลเดอร์ checkwork",
-    "รันไปป์ไลน์ผลิตและตรวจภาพ Video Hook ครบวงจร"
+    "เขียน Prompt JSON และทำไฟล์สคริปต์สตอรี่บอร์ด DOCX สำหรับคาบเรียนนี้",
+    "สั่งทำภาพ Google Flow จากไฟล์ JSON ของคาบเรียนนี้",
+    "รันไปป์ไลน์ผลิตสคริปต์ สตอรี่บอร์ด และเจนภาพ Video Hook ครบวงจร"
   ]
 }
